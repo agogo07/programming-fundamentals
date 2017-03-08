@@ -1,3 +1,10 @@
 function product(a, b) {
-    // implement your solution here
+   if(typeof a != "number" || typeof b != "number"){
+    	throw new Error("NaN expection"); 
+    }
+     else{
+     	multply = a*b;   
+     	return multply;
+     }
+}
 }
