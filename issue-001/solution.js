@@ -15,7 +15,7 @@ function dataTypeCheck(a) {
     	alert(abc) ;
         return "hello " + a;
     } else if (typeof a !== "string" && isNaN(a) === true) {
-    	alert("Nan");
+    	alert("NaN);
         return 0;
     } else if (a === null) {
     	alert("Null");
